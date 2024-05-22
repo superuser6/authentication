@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -46,7 +47,7 @@ public class Login_form extends AppCompatActivity {
     String a,b,c,d,e,f="";
 
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +66,6 @@ public class Login_form extends AppCompatActivity {
         ref2 = database.getReference("DonarDetail");
         ref3 = database.getReference("Users");
         forgotpass =findViewById(R.id.forgot_pass);
-
 
 
 

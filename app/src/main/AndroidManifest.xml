@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.wedonate2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -15,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wedonate">
-        <activity android:name=".AdminChat"></activity>
+        <activity android:name=".AdminChat" />
         <activity android:name=".AdminBB" />
         <activity android:name=".Receipt" />
         <activity android:name=".Profile" />
@@ -30,7 +29,7 @@
         <activity android:name=".Blood_Bank" />
         <activity android:name=".T_Make_Request" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
